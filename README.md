@@ -1,19 +1,13 @@
 ## HR Dashboard Project
 
-This project demonstrates a comprehensive **HR Dashboard** created in **Power BI**, using data transformed from CSV format and various advanced techniques to visualize key HR metrics.
+This project showcases an interactive **HR Dashboard** built using **Power BI** to analyze key employee metrics, such as distribution, performance, and attrition. The dataset was initially in **CSV format**, and I applied various transformations and calculations to derive meaningful insights.
 
 ### Key Features:
-1. **Data Transformation:**
-   - The original data was in **CSV format**, which required transformation and cleaning in **Power Query** to prepare it for analysis.
-   
-2. **Conditional Columns:**
-   - Created **conditional columns** based on business logic, such as identifying employees due for promotion, performance ratings, and more.
+- **Data Transformation:** Imported and cleaned the CSV data using **Power Query**. This included correcting column inconsistencies and formatting issues to prepare the data for analysis.
+  
+- **Conditional Columns:** Created conditional columns to classify employees based on promotion eligibility and performance ratings, helping to quickly identify high and low performers.
 
-3. **Bins for Age:**
-   - Used the **binning technique** to group employees by age ranges, enabling easier analysis of demographics across the organization.
-
-4. **Measures Table:**
-   - All key metrics and KPIs were calculated as **measures** in DAX and organized into a **separate table** to streamline the management and updating of metrics.
+- **Dedicated Measures Table:** All key metrics (e.g., Total Employees, Attrition Rate, etc.) were calculated using **DAX** formulas and organized into a **separate measures table** for easier management.
 
 ### Dashboard Overview:
 
@@ -25,7 +19,18 @@ This project demonstrates a comprehensive **HR Dashboard** created in **Power BI
   - **Average Monthly Income by Job Role**
   - **Employee Satisfaction and Job Levels**
 
-- **Dynamic visuals** provide insights into areas such as:
-  - Employee performance ratings (High/Low)
-  - Promotion eligibility
-  - Attrition details across various job roles and education fields.
+### Visual Insights:
+- Total Employees: 1470 (60% Male, 40% Female)
+- Employee distribution by **job role, education field**, and **service years**
+- **Employee satisfaction levels** and **attrition rates**
+- A detailed analysis of **average monthly income by job role**
+- Drill-down functionality for in-depth analysis by gender and department.
+
+### Dashboards:
+The project contains two main dashboards:
+1. **Home Dashboard:** Focuses on overall employee metrics, ratings, and attrition.
+2. **Job Dashboard:** Highlights employees due for promotion, job satisfaction, and attrition details.
+
+These dashboards provide HR teams with a data-driven approach to **workforce planning** and **decision-making**, enabling better insights into employee performance and trends.
+
+
